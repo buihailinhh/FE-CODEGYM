@@ -1,0 +1,816 @@
+/* Index.css */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #545454;
+  line-height: 1.4; 
+  height: 100%;
+  
+}
+
+
+.wrapper {
+    min-height: 100vh; /* Đặt chiều cao tối thiểu bằng với chiều cao của cửa sổ trình duyệt */
+}
+
+/* Tiêu đề chính */
+#header {
+    background-color:#272882; /* Màu nền sáng cho tiêu đề */
+   
+   
+    
+}
+
+
+/* Điều chỉnh kích thước hình ảnh */
+
+/* Thanh điều hướng */
+
+
+/* Điều chỉnh kích thước của navbar-toggler-icon */
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="currentColor" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"/></svg>');
+}
+
+/* Đưa menu điều hướng về bên trái */
+
+.navbar-nav {
+    flex-direction: row; /* Đặt menu theo hàng ngang */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Màu chữ cho liên kết điều hướng */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Màu chữ khi di chuột qua liên kết điều hướng */
+}
+
+.header .header__slider {
+   
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+  }
+  
+
+.slider-container {
+    max-width: 80%; /* Chiều rộng 80% */
+     /* Để tận dụng tối đa chiều rộng bên trong */
+    margin: auto;
+}
+  .header .header__slider .swiper-wrapper  {
+    background-color: #272882;
+    
+  }
+  .swiper:hover .next,
+  .swiper:hover .prev {
+    display: block;
+  }
+  .header .header__slider .header__slider-imgs {
+    width: 100%;
+  }
+  .header .header__slider .header__slider-img {
+    width: 100%;
+    height: auto;
+  }
+  .next,
+  .prev {
+    color: #000;
+    display: none;
+  }
+  
+.custom-row {
+  width: 80%;
+  text-align: center 0;
+}
+  .slider-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.header__slider {
+  overflow: hidden;
+  padding: 20px 0;
+  background-color: #272882;
+}
+.header__slider .slider-title a{
+  text-decoration: none;
+  color: #FFCC32;
+  text-transform: uppercase;
+  font-size: 36px;
+  
+}
+.header__slider .slide-description{
+  margin-top: 20%;
+}
+.header__slider .slider-description{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 0px 0px 24px;
+ 
+
+}
+
+
+.header__slider .button-slider a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 6px 20px;
+  margin: 20px 0px 0px;
+  text-transform: uppercase;
+  border: 2px solid;
+}
+
+.header__slider-img {
+  max-width: 100%;
+  height: auto;
+}
+/* Kiểu ban đầu của button */
+.hover-effect-btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Tạo pseudo-element cho mũi tên bên phải */
+.hover-effect-btn::after {
+  content: '→'; /* Mũi tên */
+  position: absolute;
+  right: -20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  color: white;
+}
+
+/* Khi hover hoặc click, dồn chữ về bên trái và hiện mũi tên */
+.hover-effect-btn:hover {
+  padding-right: 40px; /* Đẩy phần padding bên phải để chữ dồn sang trái */
+}
+
+.hover-effect-btn:hover::after {
+  right: 10px;
+  opacity: 1;
+}
+
+/* css main */
+
+.main{
+  margin-top: 50px;
+}
+.main .main__1-title p{
+  font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #282781;
+    margin-bottom: 50px ;
+}
+.main .main__1-content i{
+  font-size: 36px;
+  color: #F15A29;
+  padding-right: 20px;
+  
+}
+.main .main__1-content ul{
+  margin-top: 50px;
+}
+.main .main__1-content li{
+  font-size: 30px;
+  font-weight: 700;
+ 
+ margin-bottom: 10px;
+}
+.main__2-content{
+  margin-top: 130px;
+  
+  padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #EBEBEB !important;
+}
+.main__2-content img{
+  margin-top: 10%;
+}
+.main__3-content{
+  padding-top: 54px ;
+  padding-bottom: 54px;
+}
+.main__3-content p{
+  font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    color: #282781;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.main__3-content .card-body {
+  background-color: darkgray;
+
+}
+.main__3-content .card :hover {
+  background-color:cadetblue;
+
+}
+.main__4-content{
+ padding-top: 54px;
+ padding-bottom: 54px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+/* css main__4 */
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out; /* Hiệu ứng khi hover */
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.1); /* Phóng to toàn bộ vùng chứa ảnh khi hover */
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.7); /* Làm mờ nền để nổi bật chữ */
+  opacity: 1; /* Hiện nội dung luôn */
+}
+.main__4-content h4{
+  color: #4CBBE0;
+}
+.main__4-content .name{
+  font-weight: 700;
+    font-size: 20px;
+    color: #FFCC32 !important;
+}
+.main__4-content .description{
+  color: #FFFFFF;
+}
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+  .button {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button a {
+      color: #ffffff !important;
+      border-width: 0px !important;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 600 !important;
+      background-color: #F15A29;
+      text-decoration: none;
+      padding: 15px 30px;
+  }
+    
+
+    .button a:hover {
+        background-color: #0056b3;
+    }
+    /* css main__5-content */
+    .main__5-content{
+      
+      background-color: #282781!important;
+      margin-top: 54px;
+      padding-bottom: 54px;
+    }
+    .main__5-content .title{
+     margin-bottom: 27px;
+    }
+    .main__5-content .title h2{
+      text-align: center;
+      color: #FFFFFF;
+      font-weight: 600;
+      margin-bottom: 27px;
+    }
+
+    .circle-container {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      border: 2px solid #007bff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .circle {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 1s ease;
+      border: 10px solid #59A7E3; /* Thay đổi độ rộng ở đây (từ 5px thành 10px hoặc giá trị bạn muốn) */
+  }
+  .small-circle {
+    position: absolute; /* Đặt vòng tròn nhỏ tại vị trí tuyệt đối trong vòng tròn lớn */
+    width: 80px; /* Kích thước vòng tròn nhỏ */
+    height: 80px; /* Kích thước vòng tròn nhỏ */
+    border-radius: 50%; /* Làm tròn */
+    display: flex; /* Sử dụng flexbox để căn giữa biểu tượng */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    border: 7px solid #FFCC32; /* Đường viền cho vòng tròn nhỏ */
+    background-color:#FFFFFF; /* Màu nền cho vòng tròn nhỏ */
+}
+  .icon {
+      position: absolute;
+      font-size: 24px;
+      color:#282781;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+      
+  }
+
+  /* Vị trí các icon */
+  .icon:nth-child(1) {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .icon:nth-child(2) {
+      top: 25%;
+      right: 5%;
+      transform: translate(-50%, -50%);
+  }
+
+  .icon:nth-child(3) {
+      bottom: 25%;
+      right: 5%;
+      transform: translate(-50%, -50%);
+  }
+
+  .icon:nth-child(4) {
+      bottom: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .icon:nth-child(5) {
+      bottom: 25%;
+      left: 5%;
+      transform: translate(-50%, -50%);
+  }
+
+  .icon:nth-child(6) {
+      top: 25%;
+      left: 5%;
+      transform: translate(-50%, -50%);
+  }
+
+  .circle-content {
+      position: absolute;
+      font-size: 18px;
+      text-align: center;
+      padding: 10px;
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+      background-color: #FFFFFF;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+  }
+  .description{
+    margin-top: 10%;
+  }
+   .description p{
+    color: #FFFFFF;
+    line-height: 2.0;
+    font-size: 20px;
+  }
+
+  /* css main__6 */
+  .main__6-content{
+    margin-top:54px ;
+    padding: 20px;
+    margin-bottom: 54px;
+  }
+  
+
+
+/* Slick slider */
+.main__6-content  .slick-slider {
+  display: flex;
+  align-items: center;
+  
+}
+
+/* Phần từng item bao gồm ảnh và thông tin */
+.item {
+  position: relative;
+  margin: 0 10px; /* Khoảng cách giữa các item */
+}
+
+.item img {
+  width: 350px; /* Chiều rộng ảnh */
+  height: 500px; /* Chiều cao ảnh */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Phần thông tin nằm chồng lên ảnh */
+.item-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.7); /* Nền đen mờ */
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0 0 10px 10px; /* Bo tròn đáy khít với ảnh */
+  opacity: 1;
+  height: 100%;
+}
+.item-info h3,span {
+  margin-top: 60%;
+}
+/* Định dạng nút điều hướng */
+.slick-prev, .slick-next {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+.slick-slider .item {
+  position: relative;
+  text-align: center;
+  margin: 0 15px;
+}
+
+
+.slick-prev:hover, .slick-next:hover {
+  background-color: #444;
+}
+
+
+.custom-slick .slick-slider {
+  perspective: 1000px;
+}
+
+.custom-slick .slick-slide {
+  transform: scale(0.8);
+  opacity: 0.7;
+  transition: transform 0.5s, opacity 0.5s;
+  transform-style: preserve-3d; /* Đảm bảo hiệu ứng 3D */
+}
+
+/* Ảnh trung tâm */
+.custom-slick .slick-center {
+  transform: scale(1.2) rotateY(0deg);
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Ảnh không ở trung tâm (xếp chéo) */
+.custom-slick .slick-slide:not(.slick-center) {
+  transform: scale(0.8) rotateY(30deg); /* Xoay ảnh */
+  opacity: 0.7;
+}
+
+/* Điều chỉnh kích thước và kiểu ảnh */
+.custom-slick .item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.custom-slick .item-info {
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+/* css main__7 */
+.main__7-content{
+  background-color: #282781;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa nội dung theo chiều ngang */
+ 
+ 
+ 
+}
+.main__7-content h1{
+  font-size: 30px;
+  font-weight: 600;
+  color: #FFFFFF;
+  
+  padding-bottom: 10px;
+  
+  
+}
+.image-slider {
+  
+  display: flex;
+  padding-top: 27px;
+  margin-bottom: 60px;
+}
+
+.image-slider img {
+  width: calc(100% - 20px); /* Giảm chiều rộng của ảnh để bao gồm padding */
+  height: auto;
+}
+
+/* css main__8-content */
+
+
+.main__8-content {
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+.main__8-menu .slider {
+  display: flex;
+  flex-wrap: nowrap; /* Giữ các item trên một hàng */
+  justify-content: space-between;
+}
+
+.item {
+  width: auto; /* Chiều rộng item tự động theo kích thước ảnh */
+  margin-right: 15px;
+  text-align: center;
+  border: 1px solid #ccc; /* Đặt đường viền giống ảnh */
+    border-radius: 10px; /* Bo tròn góc giống với ảnh */
+    margin-top: -10px; /* Giảm khoảng cách giữa ảnh và thông tin */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); /* Thêm bóng để tạo chiều sâu */
+}
+
+.main__8-content .item img {
+  width: 100%;
+  height: auto;
+}
+
+.item-information {
+  background-color: #f8f9fa;
+  margin-top: 10px;
+  padding: 15px;
+  text-align: justify;
+   
+   
+  
+}
+.item-information h5{
+  color: #282781;
+  font-size: 18px;
+}
+
+/* css main__9-content */
+
+
+.main__9-content {
+  display: flex;
+  align-items: center;  /* Căn giữa theo chiều dọc */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  background-color: #eaeaea ;
+}
+
+ /* Container bọc carousel */
+ .main__9-content .container{
+  overflow: hidden;
+ }
+
+
+
+/* Hàng ngang chứa các ảnh */
+.carousel-images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  animation: scroll 25s linear infinite; /* Tạo hiệu ứng cuộn liên tục */
+  width: max-content;
+  width: calc(100% * 2); /* Kích thước rộng gấp đôi cho hiệu ứng chạy liên tục */
+}
+
+/* Các ảnh trong băng chuyền */
+.carousel-images img {
+ max-width: 350px;
+  object-fit: cover;
+  margin-right: 50px; /* Khoảng cách giữa các ảnh */
+ 
+}
+
+/* Keyframes cho hiệu ứng chuyển động */
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+/* css main_10-content */
+/* Style tùy chỉnh cho video lớn */
+ /* Thiết lập kích thước video lớn */
+ .video-large {
+  width: 100%;
+  height: 350px; /* Điều chỉnh chiều cao video lớn */
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+/* Thiết lập kích thước video nhỏ */
+.video-small {
+  flex: 1; /* Mỗi video nhỏ sẽ chiếm đều chiều rộng của container */
+  margin-right: 20px; /* Khoảng cách giữa các video */
+  height: 100px; /* Chiều cao video nhỏ */
+  background-color: #000;
+  cursor: pointer;
+  margin: 0 5px;
+
+  position: relative;
+}
+
+/* Xóa khoảng cách margin cho video cuối */
+.video-small:last-child {
+  margin-right: 0;
+}
+
+/* Thiết lập iframe video cho cả video lớn và nhỏ */
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+.video-small-carousel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-small img {
+  width: 100%;
+  height: auto;
+}
+
+.video-small .start-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.video-small .start-button img {
+  width: 24px; /* Kích thước của nút play */
+  height: 24px;
+}
+
+
+/*  */
+.menu {
+  display: flex;
+  flex-direction: column; /* Đặt theo chiều dọc */
+}
+.menu_1 {
+  display: flex; /* Đặt các phần tử con nằm thẳng hàng */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-bottom: 20px; /* Khoảng cách giữa các mục */
+}
+.menu_1 .image {
+  flex: 0 0 auto; /* Để ảnh không co giãn */
+  margin-right: 10px; /* Khoảng cách giữa ảnh và nội dung */
+}
+.menu_1 img {
+  
+  width: 200px;
+  border-radius: 5px; /* Bo góc cho ảnh */
+}
+.menu_1 .content {
+  
+  flex: 1; /* Nội dung chiếm hết không gian còn lại */
+}
+.menu_1 a {
+  text-decoration: none; /* Bỏ gạch chân cho liên kết */
+  color: #282781; /* Màu chữ */
+  font-size: 20px;
+}
+
+/* css main__11-content */
+.line {
+  flex: 1; /* Đường line sẽ chiếm không gian còn lại */
+  height: 1px; /* Độ cao của đường line */
+  background-color: #ccc; /* Màu của đường line */
+  margin: 0 10px; /* Khoảng cách giữa đường line và chữ */
+  width: 70%;
+  margin: auto;
+}
+
+/* css main__12-content */
+/* Thiết lập kiểu cho danh sách */
+ul {
+  padding: 0; /* Xóa khoảng cách bên trong */
+  margin: 0; /* Xóa khoảng cách bên ngoài */
+  list-style: none; /* Loại bỏ các gạch đầu dòng mặc định */
+  
+}
+
+/* Thiết lập kiểu cho mỗi mục trong danh sách */
+.main__12-content{
+  padding: 54px;
+}
+.main__12-content h3{
+  color: #FFFFFF;
+}
+ul li {
+  margin: 20px 0; /* Khoảng cách giữa các mục */
+}
+
+/* Thiết lập kiểu cho liên kết */
+ul li a {
+  text-decoration: none; /* Xóa gạch chân */
+  color: #ffffff; /* Màu chữ */
+  
+  transition: color 0.3s; /* Hiệu ứng chuyển màu khi di chuột */
+  font-size: 20px;
+}
+
+/* Hiệu ứng khi di chuột lên liên kết */
+ul li a:hover {
+  color: #0056b3; /* Thay đổi màu chữ khi di chuột */
+}
+
+/* Thiết lập khoảng cách cho khối box */
+
+/* Hiệu ứng khi di chuột lên box */
+
+.main__12-content{
+  background-color:rgb(61, 61, 61);
+}
+
+/* css footer */
+
+footer p{
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 20px;
+
+}
+footer a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+}
+footer ul li a{
+  font-weight: 400;
+}
+footer h3{
+  color: #FFFFFF;
+}
+
+
+
+
+

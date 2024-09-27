@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Index.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- Slick Theme CSS (Optional) -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <!-- bangchuyen -->
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-center ">
+                            <a href="#">
+                                <!-- Điều chỉnh kích thước hình ảnh ở đây nếu cần -->
+                                <img src="https://cdn.codegym.vn/wp-content/uploads/2021/08/CodeGym-Logo.webp"
+                                    width="350" height="70" alt="CodeGym" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="coursesDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Khóa học
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="coursesDropdown">
+                                                <li><a class="dropdown-item" href="#">Bootcamp Full-time</a></li>
+                                                <li><a class="dropdown-item" href="#">Bootcamp Part-time</a></li>
+                                                <li><a class="dropdown-item" href="#">Khóa học Từ xa</a></li>
+                                                <li><a class="dropdown-item" href="#" target="_blank" rel="noopener">Cử
+                                                        nhân
+                                                        CNTT – ĐH từ xa</a></li>
+                                                <li><a class="dropdown-item" href="#" target="_blank"
+                                                        rel="noopener">Combo
+                                                        Coding Bootcamp – Cử nhân CNTT</a></li>
+                                                <li><a class="dropdown-item" href="#" target="_blank" rel="noopener">Kỹ
+                                                        sư
+                                                        CNTT</a></li>
+                                                <li><a class="dropdown-item" href="#">Khóa học miễn phí</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">>> XEM TẤT CẢ</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Lịch khai giảng</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="knowledgeDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Kiến thức
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="knowledgeDropdown">
+                                                <li><a class="dropdown-item" href="#">Chia sẻ kiến thức</a></li>
+                                                <li><a class="dropdown-item" href="#">Tài nguyên lập trình</a></li>
+                                                <li><a class="dropdown-item" href="#">Tin Công nghệ</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Tin tức</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Về CodeGym
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                                <li><a class="dropdown-item" href="#">Tại sao nên chọn CodeGym</a></li>
+                                                <li><a class="dropdown-item" href="#">Mô hình Coding Bootcamp</a></li>
+                                                <li><a class="dropdown-item" href="#">Báo chí nói về CodeGym</a></li>
+                                                <li><a class="dropdown-item" href="#">Cộng đồng Đại sứ</a></li>
+                                                <li><a class="dropdown-item" href="#">Đối tác</a></li>
+                                                <li><a class="dropdown-item" href="#">Chân dung học viên</a></li>
+                                                <li><a class="dropdown-item" href="#">Hoạt động cộng đồng</a></li>
+                                                <li><a class="dropdown-item" href="#">Liên hệ</a></li>
+                                                <li><a class="dropdown-item" href="#">Tuyển dụng</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="header__slider">
+                <div class="slider-container">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="slide-description">
+                                        <h2 class="slider-title">
+                                            <a href="#">Tư vấn 1-1</a>
+                                        </h2>
+                                        <p class="slider-description">Miễn phí cùng chuyên gia</p>
+                                        <div class="button-slider">
+                                            <a href="#" class="hover-effect-btn">Tìm hiểu thêm</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/Asset-22x.png" alt=""
+                                        class="header__slider-img img-fluid">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- main -->
+        <main class="main">
+            <div class="main__1">
+                <div class="main__1-container">
+                    <div class="main__1-title">
+                        <p>HỆ THỐNG ĐÀO TẠO LẬP TRÌNH HIỆN ĐẠI CODEGYM</p>
+                    </div>
+                    <div class="main__1-content">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Bên trái: Nội dung -->
+                                <div class="col-md-6">
+
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex align-items-center mb-2">
+                                            <i class="fa-solid fa-users"></i> <!-- Icon bên trái -->
+                                            15000+ HỌC VIÊN <!-- Nội dung bên phải -->
+                                        </li>
+                                        <li class="d-flex align-items-center mb-2">
+                                            <i class="fas fa-check-circle me-2"></i>
+                                            30+ KHÓA HỌC
+                                        </li>
+                                        <li class="d-flex align-items-center mb-2">
+                                            <i class="fas fa-check-circle me-2"></i>
+                                            80+ GIẢNG VIÊN
+                                        </li>
+                                        <li class="d-flex align-items-center mb-2">
+                                            <i class="fas fa-check-circle me-2"></i>
+                                            300+ ĐỐI TÁC
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+
+                                <!-- Bên phải: Video -->
+                                <div class="col-md-6 text-center">
+
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="https://www.youtube.com/embed/djCMhhivZK8" allowfullscreen
+                                            style="width: 100%; height: 100%;"></iframe>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <div class="main__2-content">
+                <div class="container">
+                    <div class="row d-flex justify-content-between align-items-center text-center">
+                        <!-- Hình ảnh 1 -->
+                        <div
+                            class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3 d-flex justify-content-center align-items-center">
+                            <img width="100" height="100"
+                                src="https://cdn.codegym.vn/wp-content/uploads/2023/01/Logo_giai_thuong_Sao_Khue.png"
+                                class="img-fluid" alt="Giải thưởng Sao Khuê 2021" title="Giải thưởng Sao Khuê 2021">
+                        </div>
+                        <!-- Hình ảnh 2 -->
+                        <div
+                            class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3 d-flex justify-content-center align-items-center">
+                            <img width="100" height="100"
+                                src="https://cdn.codegym.vn/wp-content/uploads/2023/01/Logo_giai_thuong_Sao_Khue.png"
+                                class="img-fluid" alt="Giải thưởng Sao Khuê 2021" title="Giải thưởng Sao Khuê 2021">
+                        </div>
+                        <!-- Hình ảnh 3 -->
+                        <div
+                            class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3 d-flex justify-content-center align-items-center">
+                            <img width="100" height="100"
+                                src="https://cdn.codegym.vn/wp-content/uploads/2023/01/Logo_giai_thuong_Sao_Khue.png"
+                                class="img-fluid" alt="Giải thưởng Sao Khuê 2021" title="Giải thưởng Sao Khuê 2021">
+                        </div>
+                        <!-- Hình ảnh 4 -->
+                        <div
+                            class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3 d-flex justify-content-center align-items-center">
+                            <img width="100" height="100"
+                                src="https://cdn.codegym.vn/wp-content/uploads/2023/01/Logo_giai_thuong_Sao_Khue.png"
+                                class="img-fluid" alt="Giải thưởng Sao Khuê 2021" title="Giải thưởng Sao Khuê 2021">
+                        </div>
+                        <!-- Hình ảnh 5 -->
+                        <div
+                            class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3 d-flex justify-content-center align-items-center">
+                            <img width="100" height="100"
+                                src="https://cdn.codegym.vn/wp-content/uploads/2023/01/Logo_giai_thuong_Sao_Khue.png"
+                                class="img-fluid" alt="Giải thưởng Sao Khuê 2021" title="Giải thưởng Sao Khuê 2021">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main__3 -->
+            <div class="main__3-content">
+                <div class="main__1-title">
+                    <p>ĐỐI TƯỢNG PHÙ HỢP VỚI CÁC KHOÁ HỌC TẠI CODEGYM</p>
+                </div>
+                <div class="main__3-menu">
+                    <div class="container">
+                        <div class="row text-center">
+                            <!-- Mục 1 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img width="400" height="250"
+                                            src="https://cdn.codegym.vn/wp-content/uploads/2024/03/5.jpg"
+                                            class="img-fluid mb-3" alt="Mục 2">
+
+                                        <p class="card-text">NGƯỜI ĐÃ CÓ NỀN TẢNG, MONG MUỐN HỌC THÊM ĐỂ NÂNG CAO KỸ
+                                            NĂNG</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Mục 2 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img width="400" height="250"
+                                            src="https://cdn.codegym.vn/wp-content/uploads/2024/03/1-1.jpg"
+                                            class="img-fluid mb-3" alt="Mục 2">
+
+                                        <p class="card-text">NGƯỜI ĐÃ CÓ NỀN TẢNG, MONG MUỐN HỌC THÊM ĐỂ NÂNG CAO KỸ
+                                            NĂNG</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mục 3 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <img width="400" height="250"
+                                            src="https://cdn.codegym.vn/wp-content/uploads/2024/04/Thiet-ke-chua-co-ten.jpg"
+                                            class="img-fluid mb-3" alt="Mục 3">
+
+                                        <p class="card-text">NGƯỜI ĐANG ĐI LÀM, MONG MUỐN HỌC THÊM CÔNG NGHỆ ĐỂ ỨNG DỤNG
+                                            VÀ CÔNG VIỆC</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- main__4-content -->
+            <div class="main__4-content">
+                <div class="main__1-title">
+                    <p>CÁC KHOÁ HỌC TẠI CODEGYM</p>
+                </div>
+                <div class="main__4-menu">
+                    <div class="container">
+                        <div class="row text-center">
+                            <!-- Mục 1 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/1.jpg" alt="Ảnh 1">
+                                    <div class="card-content">
+                                        <div class="name">
+                                            <h4>LẬP TRÌNH</h4>
+                                            <div class="time">BOOTCAMP FULLTIME</div>
+                                            <div class="description">ONLINE, OFFLINE</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mục 2 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/3.jpg" alt="Ảnh 2">
+                                    <div class="card-content">
+                                        <div class="name">
+                                            <h4>LẬP TRÌNH</h4>
+                                            <div class="time">BOOTCAMP FULLTIME</div>
+                                            <div class="description">ONLINE, OFFLINE</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mục 3 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="	https://cdn.codegym.vn/wp-content/uploads/2024/01/2.jpg" alt="Ảnh 3">
+                                    <div class="card-content">
+                                        <div class="name">
+                                            <h4>LẬP TRÌNH</h4>
+                                            <div class="time">BOOTCAMP FULLTIME</div>
+                                            <div class="description">ONLINE, OFFLINE</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mục 4 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="https://cdn.codegym.vn/wp-content/uploads/2024/08/Advanced-Game-Development-with-Unity-.png"
+                                        alt="Ảnh 4">
+                                    <div class="card-content">
+                                        <div class="name">
+                                            <h4>LẬP TRÌNH</h4>
+                                            <div class="time">BOOTCAMP FULLTIME</div>
+                                            <div class="description">ONLINE, OFFLINE</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mục 5 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/5.jpg" alt="Ảnh 5">
+                                    <div class="card-content">
+                                        <div class="name">
+                                            <h4>LẬP TRÌNH</h4>
+                                            <div class="time">BOOTCAMP FULLTIME</div>
+                                            <div class="description">ONLINE, OFFLINE</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mục 6 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="https://cdn.codegym.vn/wp-content/uploads/2024/09/hocquanhnam.png"
+                                        alt="Ảnh 6">
+                                    <div class="card-content">
+                                        <div class="name">
+                                            <h4>LẬP TRÌNH</h4>
+                                            <div class="time">BOOTCAMP FULLTIME</div>
+                                            <div class="description">ONLINE, OFFLINE</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- button -->
+                <div class="button">
+
+                    <a href="">XEM TẤT CẢ CÁC KHÓA HỌC</a>
+
+                </div>
+
+            </div>
+            <!-- main__5-content -->
+            <div class="main__5-content">
+                <div class="container">
+                    <div class="title">
+                        <h2 style="padding-top: 50px;">MÔ HÌNH ĐÀO TẠO ƯU VIỆT</h2> <!-- Tiêu đề chính -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="circle-container">
+                                <div class="circle-content" id="circleContent">
+                                    <h3 id="iconTitle"></h3>
+                                    <p id="iconDescription"></p>
+                                </div>
+                                <div class="circle">
+                                    <div class="small-circle" style="top: -10%; left: 43%;">
+                                        <div class="icon" data-title="Khoa học"
+                                            data-content="Chương trình đào tạo và lộ trình học tập được cá nhân hóa trong môi trường chuyên nghiệp, sáng tạo, nhịp độ nhanh, thúc đẩy sự hợp tác thông qua lập trình cặp trong các giờ thực hành.">
+                                            <i class="fa fa-home"></i>
+                                        </div>
+                                    </div>
+                                    <div class="small-circle" style="top: 35%; left: -9%;">
+                                        <div class="icon" data-title="
+
+
+                                        " data-content="Nội dung chương trình cô đọng, sát với yêu cầu của doanh nghiệp. CodeGym tổ chức các seminar,
+                                        techtalk định kỳ với doanh nghiệp và các chuyến thăm doanh nghiệp cho học viên. Cuối khóa, 
+                                        các doanh nghiệp tham gia phiên đánh giá năng lực và tuyển dụng học viên.">
+                                            <i class="fa fa-user"></i>
+                                        </div>
+                                    </div>
+                                    <div class="small-circle" style="top: 90%; left: 25%;">
+                                        <div class="icon" data-title="
+
+                                        " data-content="Chương trình huấn luyện của 1 HV được lên kế hoạch cẩn thận, chi tiết, nhằm từng bước xây dựng vững chắc các kỹ năng
+                                        chuyên môn và phát triển nghề nghiệp dựa trên khả năng của mỗi HV. Mỗi HV luôn có một huấn luyện 
+                                        viên hỗ trợ và huấn luyện.">
+                                            <i class="fa fa-cog"></i>
+                                        </div>
+                                    </div>
+                                    <div class="small-circle" style="top: 76%; left: 79%;">
+                                        <div class="icon" data-title="Nội dung 4" data-content="CodeGym đưa ra những cam kết rất chặt chẽ về chất lượng đào tạo, đảm bảo việc làm và bồi hoàn trong trường hợp không thực hiện được cam kết của mình. Sự cam kết mạnh mẽ chính là giá trị cốt lõi và là động lực để CodeGym và học viên cùng nỗ lực.
+
+                                        ">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="small-circle" style="top: 30%; left: 92%;">
+                                        <div class="icon" data-title="Nội dung 5" data-content="CodeGym đưa ra những cam kết rất chặt chẽ về chất lượng đào tạo, đảm bảo việc làm và bồi hoàn trong trường hợp không thực hiện được cam kết của mình. Sự cam kết mạnh mẽ chính là giá trị cốt lõi và là động lực để CodeGym và học viên cùng nỗ lực.
+
+                                        ">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="description">
+                                <p>CodeGym ứng dụng Công nghệ Giáo dục vào trong mọi ngóc ngách của giải pháp đào tạo
+                                    của mình,
+                                    từ đó mang lại trải nghiệm và hiệu quả học tập tốt nhất cho học viên. Đội ngũ Nghiên
+                                    cứu
+                                    và Phát triển của CodeGym luôn sáng tạo và tích hợp nhiều kỹ thuật dạy và học tiên
+                                    tiến.
+
+                                </p>
+                                <p>CodeGym tự hào là đơn vị đầu tiên ở Việt Nam triển khai thành công mô hình Coding
+                                    Bootcamp.
+                                    Đây là một mô hình đào tạo lập trình hiệu quả cao giúp học viên nhanh chóng trưởng
+                                    thành và
+                                    đạt được trình độ sẵn sàng tham gia ngay vào thị trường việc làm.
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main__6-content -->
+            <div class="main__6-content">
+                <div class="main__1-title text-center mb-4">
+                    <p class="h3">CẢM NHẬN CỦA HỌC VIÊN</p>
+                </div>
+
+                <!-- Slick slider nằm trong container -->
+                <div class="container">
+                    <div class="slick-slider custom-slick">
+
+                        <div class="item">
+                            <img src="https://cdn.codegym.vn/wp-content/uploads/2023/03/Le-Phung-Nhat-Truong-CHV-CodeGym.jpg"
+                                alt="Hình 1" class="img-fluid">
+                            <div class="item-info p-3">
+                                <h3>LÊ PHÙNG NHẬT TRƯỜNG</h3>
+                                <span>CodeGym không chỉ đào tạo kiến thức chuyên môn, mà còn giúp mình nâng cao kỹ năng
+                                    làm việc. Qua các hoạt động seminar, teambuilding, techtalk…
+                                    khả năng giao tiếp của mình đã cải thiện, tự tin hơn, đây là một yếu tố rất quan
+                                    trọng để mình trở thành Sub-Leader như hiện tại.</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://cdn.codegym.vn/wp-content/uploads/2023/03/Tran-Duc-Quy-CHV-CodeGym.jpg"
+                                alt="Hình 2" class="img-fluid">
+                            <div class="item-info p-3">
+                                <h3>Trần QUÝ ĐỨC</h3>
+                                <span>CodeGym không chỉ đào tạo kiến thức chuyên môn, mà còn giúp mình nâng cao kỹ năng
+                                    làm việc. Qua các hoạt động seminar, teambuilding, techtalk…
+                                    khả năng giao tiếp của mình đã cải thiện, tự tin hơn, đây là một yếu tố rất quan
+                                    trọng để mình trở thành Sub-Leader như hiện tại.</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/duong-tuan-anhh.jpg"
+                                alt="Hình 3" class="img-fluid">
+                            <div class="item-info p-3">
+                                <h3>Võ Nguyên Hoàng</h3>
+                                <span>CodeGym không chỉ đào tạo kiến thức chuyên môn, mà còn giúp mình nâng cao kỹ năng
+                                    làm việc. Qua các hoạt động seminar, teambuilding, techtalk…
+                                    khả năng giao tiếp của mình đã cải thiện, tự tin hơn, đây là một yếu tố rất quan
+                                    trọng để mình trở thành Sub-Leader như hiện tại.</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/tran-nhat-anhh.jpg" alt="Hình 4"
+                                class="img-fluid">
+                            <div class="item-info p-3">
+                                <h3>Phạm Văn Long</h3>
+                                <span>CodeGym không chỉ đào tạo kiến thức chuyên môn, mà còn giúp mình nâng cao kỹ năng
+                                    làm việc. Qua các hoạt động seminar, teambuilding, techtalk…
+                                    khả năng giao tiếp của mình đã cải thiện, tự tin hơn, đây là một yếu tố rất quan
+                                    trọng để mình trở thành Sub-Leader như hiện tại.</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://cdn.codegym.vn/wp-content/uploads/2021/01/Nguyen-Van-Duc-1.jpg"
+                                alt="Hình 5" class="img-fluid">
+                            <div class="item-info p-3">
+                                <h3>Trần Trung Kiên</h3>
+                                <span>CodeGym không chỉ đào tạo kiến thức chuyên môn, mà còn giúp mình nâng cao kỹ năng
+                                    làm việc. Qua các hoạt động seminar, teambuilding, techtalk…
+                                    khả năng giao tiếp của mình đã cải thiện, tự tin hơn, đây là một yếu tố rất quan
+                                    trọng để mình trở thành Sub-Leader như hiện tại.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- main__7-content -->
+
+            <div class="main__7-content">
+                <div class="container text-center mt-5">
+                    <!-- Title in the center -->
+                    <h1 class="mb-4">NHỮNG CÂU CHUYỆN TRUYỀN CẢM HỨNG</h1>
+
+                    <!-- Slick Carousel -->
+                    <div class="image-slider">
+
+                        <div><img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/Ngo-Quy-Ngoc.png"
+                                style="width: 400;height: 250;" alt="Image 1" class="img-fluid"></div>
+                        <div><img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/Duong-Tien-Dat.png"
+                                alt="Image 2" class="img-fluid"></div>
+                        <div><img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/Duong-Tuan-Anh.png"
+                                alt="Image 3" class="img-fluid"></div>
+                        <div><img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/Ho-Le-Ngoc-Tuyen.png"
+                                alt="Image 4" class="img-fluid"></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- main__8-content -->
+            <div class="main__8-content">
+                <div class="main__1-title">
+                    <p>DOANH NGHIỆP VÀ ĐỐI TÁC</p>
+                </div>
+                <div class="container">
+                    <div class="main__8-menu">
+                        <div class="slider">
+                            <div class="item">
+                                <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/tran-xuan-duy.jpg
+                                " class="img-fluid" alt="Item Image">
+                                <div class="item-information">
+                                    <h5 class="item-name">Anh Nguyễn Việt Hoàng</h5>
+                                    <p class="item-description">CodeGym đang đi đúng hướng, thời bây giờ cần phải đào
+                                        tạo thực chất,
+                                        thực tế và bám sát với những tiêu chuẩn cao nhất. Anh đánh giá rất cao thái độ
+                                        cầu thị,
+                                        tinh thần và khả năng học hỏi của các bạn đã tốt nghiệp ở CodeGym,
+                                        theo anh thì đó mới là yếu tố quan trọng nhất quyết định đến sự thành công của
+                                        các bạn ở con đường dài.</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/tran-cong-thanh.jpg
+                                " class="img-fluid" alt="Item Image">
+                                <div class="item-information">
+                                    <h5 class="item-name">Anh Nguyễn Việt Hoàng</h5>
+                                    <p class="item-description">CodeGym đang đi đúng hướng, thời bây giờ cần phải đào
+                                        tạo thực chất,
+                                        thực tế và bám sát với những tiêu chuẩn cao nhất. Anh đánh giá rất cao thái độ
+                                        cầu thị,
+                                        tinh thần và khả năng học hỏi của các bạn đã tốt nghiệp ở CodeGym,
+                                        theo anh thì đó mới là yếu tố quan trọng nhất quyết định đến sự thành công của
+                                        các bạn ở con đường dài.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/bui-xuan-hien.jpg"
+                                    class="img-fluid" alt="Item Image">
+                                <div class="item-information">
+                                    <h5 class="item-name">Anh Nguyễn Quang Hải</h5>
+                                    <p class="item-description">Qua thực tế, các bạn mới ra trường sẽ cần đào tạo từ 3-4
+                                        tháng để sẵn sàng đảm nhận dự án.
+                                        Tuy nhiên, có một số trường hợp, các bạn đã quen với môi trường doanh nghiệp từ
+                                        các đơn vị đào tạo thực chiến sẽ rút ngắn hơn quá trình này.
+                                        Có thể kể đến đơn vị đào tạo lập trình viên đã gắn bó với Bluebottle những năm
+                                        gần đây như CodeGym. </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/luu-trong-hieu-1.jpg"
+                                    class="img-fluid" alt="Item Image">
+                                <div class="item-information">
+                                    <h5 class="item-name">Anh Đoàn Văn Hậu</h5>
+                                    <p class="item-description">Qua thực tế, các bạn mới ra trường sẽ cần đào tạo từ 3-4
+                                        tháng để sẵn sàng đảm nhận dự án.
+                                        Tuy nhiên, có một số trường hợp, các bạn đã quen với môi trường doanh nghiệp từ
+                                        các đơn vị đào tạo thực chiến sẽ rút ngắn hơn quá trình này.
+                                        Có thể kể đến đơn vị đào tạo lập trình viên đã gắn bó với Bluebottle những năm
+                                        gần đây như CodeGym.</p>
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/ceo-hanbisoft.jpg"
+                                    class="img-fluid" alt="Item Image">
+                                <div class="item-information">
+                                    <h5 class="item-name">Anh Đoàn Văn Hậu</h5>
+                                    <p class="item-description">CodeGym đang đi đúng hướng, thời bây giờ cần phải đào
+                                        tạo thực chất,
+                                        thực tế và bám sát với những tiêu chuẩn cao nhất. Anh đánh giá rất cao thái độ
+                                        cầu thị,
+                                        tinh thần và khả năng học hỏi của các bạn đã tốt nghiệp ở CodeGym,
+                                        theo anh thì đó mới là yếu tố quan trọng nhất quyết định đến sự thành công của
+                                        các bạn ở con đường dài.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/nguyen-huy-toan.jpg"
+                                    class="img-fluid" alt="Item Image">
+                                <div class="item-information">
+                                    <h5 class="item-name">Anh Đoàn Văn Hậu</h5>
+                                    <p class="item-description">CodeGym đang đi đúng hướng, thời bây giờ cần phải đào
+                                        tạo thực chất,
+                                        thực tế và bám sát với những tiêu chuẩn cao nhất. Anh đánh giá rất cao thái độ
+                                        cầu thị,
+                                        tinh thần và khả năng học hỏi của các bạn đã tốt nghiệp ở CodeGym,
+                                        theo anh thì đó mới là yếu tố quan trọng nhất quyết định đến sự thành công của
+                                        các bạn ở con đường dài.</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Thêm các carousel-item khác tương tự cho các sản phẩm khác -->
+                </div>
+
+            </div>
+
+            <!-- main__9-content -->
+            <div class="main__9-content">
+                <div class="container">
+
+                    <div class="carousel-images">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/flinterss-1.png" alt="Image 1">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/sun.png" alt="Image 2">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/2.png" alt="Image 3">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/1.png" alt="Image 4">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/vmo.png" alt="Image 5">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/fpt-software.png" alt="Image 6">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/3.png" alt="Image 7">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/ntq.png" alt="Image 8">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/Thiet-ke-chua-co-ten-1.png"
+                            alt="Image 9">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/biplus.png" alt="Image 10">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/logo-1000200-1-1.png"
+                            alt="Image 11">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/hamsa.png" alt="Image 12">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/velaa.png" alt="Image 13">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/deha.png" alt="Image 14">
+                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/mor.png" alt="Image 15">
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- main__10-content -->
+            <div class="main__10-content" style="margin-top: 54px;padding-bottom: 54px;">
+                <div class="main__1-title">
+                    <p>BÁO CHÍ NÓI VỀ CODEGYM</p>
+                </div>
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Video lớn -->
+                            <div class="video-large">
+                                <iframe id="main-video" width="100%" height="315"
+                                    src="https://www.youtube.com/embed/z4xypm_VukY" frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Slick Carousel cho video nhỏ -->
+                            <div class="video-small-carousel mt-4">
+                                <div class="video-small" onclick="changeVideo('djCMhhivZK8')">
+                                    <img src="https://img.youtube.com/vi/djCMhhivZK8/hqdefault.jpg"
+                                        alt="Video Thumbnail">
+                                    <button class="start-button">
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/play.png" alt="Start">
+                                    </button>
+                                </div>
+                                <div class="video-small" onclick="changeVideo('eQ4WjiSxcfc')">
+                                    <img src="https://img.youtube.com/vi/eQ4WjiSxcfc/hqdefault.jpg"
+                                        alt="Video Thumbnail">
+                                    <button class="start-button">
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/play.png" alt="Start">
+                                    </button>
+                                </div>
+                                <div class="video-small" onclick="changeVideo('0Z0Mxd2X6KU')">
+                                    <img src="https://img.youtube.com/vi/0Z0Mxd2X6KU/hqdefault.jpg"
+                                        alt="Video Thumbnail">
+                                    <button class="start-button">
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/play.png" alt="Start">
+                                    </button>
+                                </div>
+                                <div class="video-small" onclick="changeVideo('z4xypm_VukY')">
+                                    <img src="https://img.youtube.com/vi/z4xypm_VukY/hqdefault.jpg"
+                                        alt="Video Thumbnail">
+                                    <button class="start-button">
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/play.png" alt="Start">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu">
+                                <div class="menu_1">
+                                    <div class="image">
+                                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/CafeF-trang-chu.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="">Coding Bootcamp: Lời giải cho bài toán nhân lực CNTT</a>
+                                    </div>
+                                </div>
+                                <div class="menu_1">
+                                    <div class="image">
+                                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/tiasang-trang-chu.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="">CEO “lò luyện code siêu tốc” kể chuyện đưa hàng ngàn người Việt thất
+                                            nghiệp, trái ngành trở thành lập trình viên</a>
+                                    </div>
+                                </div>
+                                <div class="menu_1">
+                                    <div class="image">
+                                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/congthuong-trang-chu.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="">Hội thảo Đào tạo Lập trình: Cùng doanh nghiệp tháo gỡ nút thắt nhân
+                                            sự</a>
+                                    </div>
+                                </div>
+                                <div class="menu_1">
+                                    <div class="image">
+                                        <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/tiasang-trang-chu.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="">CEO “lò luyện code siêu tốc” kể chuyện đưa hàng ngàn người Việt thất
+                                            nghiệp, trái ngành trở thành lập trình viên</a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Thêm CSS nếu cần -->
+
+
+
+            </div>
+
+            <!-- main__11-content -->
+            <div class="main__11-content">
+                <div class="main__1-title">
+
+                    <div class="line"></div>
+
+                    <div class="icon">
+                        <i class="fa-solid fa-pencil"></i> <!-- Icon chiếc bút từ Font Awesome -->
+                    </div>
+                    <p style="padding-top: 30px;">BÀI VIẾT VÀ TIN TỨC</p>
+                </div>
+
+                <div class="main__11-menu" style="padding-bottom: 54px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu">
+                                    <h4 style="padding-bottom: 30px; color: #282781;">BÀI VIẾT CÔNG NGHỆ</h4>
+                                    <div class="menu_1">
+                                        <div class="image">
+                                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/html-css.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="content">
+                                            <a href="">Coding Bootcamp: Lời giải cho bài toán nhân lực CNTT</a>
+                                        </div>
+                                    </div>
+                                    <div class="menu_1">
+                                        <div class="image">
+                                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/kiem-tra-nang-luc-tu-duy.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="content">
+                                            <a href="">CEO “lò luyện code siêu tốc” kể chuyện đưa hàng ngàn người Việt
+                                                thất nghiệp, trái ngành trở thành lập trình viên</a>
+                                        </div>
+                                    </div>
+                                    <div class="menu_1">
+                                        <div class="image">
+                                            <img src="https://cdn.codegym.vn/wp-content/uploads/2019/01/hoc-lap-trinh-may-tinh-8.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="content">
+                                            <a href="">Hội thảo Đào tạo Lập trình: Cùng doanh nghiệp tháo gỡ nút thắt
+                                                nhân sự</a>
+                                        </div>
+                                    </div>
+                                    <div class="menu_1">
+                                        <div class="image">
+                                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/01/ReactJS-Web-Fast-Track.png"
+                                                alt="">
+                                        </div>
+                                        <div class="content">
+                                            <a href="">CEO “lò luyện code siêu tốc” kể chuyện đưa hàng ngàn người Việt
+                                                thất nghiệp, trái ngành trở thành lập trình viên</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="menu">
+                                    <H4 style="padding-bottom: 30px; color: #282781;">TIN TỨC HOẠT ĐỘNG</H4>
+                                    <div class="menu_1">
+                                        <div class="image">
+                                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/09/1000x600-1080x675.png"
+                                                alt="">
+                                        </div>
+                                        <div class="content">
+                                            <a href="">Coding Bootcamp: Lời giải cho bài toán nhân lực CNTT</a>
+                                        </div>
+                                    </div>
+                                    <div class="menu_1">
+                                        <div class="image">
+                                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/09/Tong-ket-Techtalk-FRONTEND-WEB-XUA-VA-NAY.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="content">
+                                            <a href="">CEO “lò luyện code siêu tốc” kể chuyện đưa hàng ngàn người Việt
+                                                thất nghiệp, trái ngành trở thành lập trình viên</a>
+                                        </div>
+                                    </div>
+                                    <div class="menu_1">
+                                        <div class="image">
+                                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/02/congthuong-trang-chu.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="content">
+                                            <a href="">Hội thảo Đào tạo Lập trình: Cùng doanh nghiệp tháo gỡ nút thắt
+                                                nhân sự</a>
+                                        </div>
+                                    </div>
+                                    <div class="menu_1">
+                                        <div class="image">
+                                            <img src="https://cdn.codegym.vn/wp-content/uploads/2024/09/CodeGym-to-chuc-Le-tot-nghiep-thang-82024.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="content">
+                                            <a href="">CEO “lò luyện code siêu tốc” kể chuyện đưa hàng ngàn người Việt
+                                                thất nghiệp, trái ngành trở thành lập trình viên</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main12__content -->
+                <div class="main__12-content">
+                    <div class="main__12-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="box">
+                                        <H3>KHÓA HỌC</H3>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Cho người mới bắt đầu</a></li>
+                                            <li><a href="#">Cho người đã biết lập trình</a></li>
+                                            <li><a href="#">Bootcamp full-time</a></li>
+                                            <li><a href="#">Bootcamp parttime</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="box">
+                                        <H3>ƯU ĐÃI</H3>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Cho người mới bắt đầu</a></li>
+                                            <li><a href="#">Cho người đã biết lập trình</a></li>
+                                            <li><a href="#">Bootcamp full-time</a></li>
+                                            <li><a href="#">Bootcamp parttime</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <H3>TÀI NGUYÊN</H3>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Tài liệu tải về</a></li>
+                                        <li><a href="#">Blog chia sẻ kiến thức</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <H3>HOẠT ĐỘNG</H3>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Cựu học viên</a></li>
+                                        <li><a href="#">Hoạt động cộng đồng</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+    </div>
+
+    </main>
+
+    <footer class="footer" style="background-color: #282781; padding: 80px;">
+        <div class="container">
+            <div class="row">
+                <!-- Phần bên trái -->
+                <div class="col-md-8" style="margin: 20px 0px;">
+                    <img src="https://cdn.codegym.vn/wp-content/uploads/2020/05/Logo-CodeGym-W-05.png" style="width: 250;
+                        height: 50; margin-bottom: 30px;">
+                    <p>Hà Nội: <a href="">Số 23, Lô TT01, KĐT Mon City, Mỹ Đình 2, Q. Nam Từ Liêm</a></p>
+                    <p>Đà Nẵng: <a href="">Số 23, Lô TT01, KĐT Mon City, Mỹ Đình 2, Q. Nam Từ Liêm</a></p>
+                    <p>TP. Hồ Chí Minh: <a href="">Số 23, Lô TT01, KĐT Mon City, Mỹ Đình 2, Q. Nam Từ Liêm</a></p>
+                    <p>Hotline: 09887845783</p>
+                    <p>Email: codegy@.com</p>
+                </div>
+
+                <!-- Phần bên phải -->
+                <div class="col-md-4">
+                    <h3>VỀ CODEGYM</h3>
+                    <ul>
+                        <li><a href="#">Tại sao nên chọn Codegym</a></li>
+                        <li><a href="#">Học viên Codegym</a></li>
+                        <li><a href="#">Báo chí nói về CodeGym</a></li>
+                        <li><a href="#">Blog của học viên</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Phần ở đáy -->
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <p>&copy; Công ty CP CodeGym Việt Nam - MST: 010 810 4526 - <a href=""></a></p>
+                    <p>ĐC: <span>Căn hộ TT01.23 dự án Hải Đăng city, phường Mỹ Đình 2, quận Nam Từ Liêm, thành phố Hà
+                            Nội</span> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    </div>
+    <!-- jQuery -->
+
+    <script src="js/Index.js"></script>
+</body>
+
+</html>
